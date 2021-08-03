@@ -27,4 +27,4 @@
       }
     }
 
-## Si lo corremos como esta te empacha la maquina.
+## Si lo corremos como está te empacha la maquina.
