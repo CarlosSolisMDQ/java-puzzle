@@ -3,8 +3,8 @@
 ## puzzle encontrado en una web de ofertas de trabajo IT, me gustó y lo copié para resolverlo.
 
 ¡Desafío para desarrolladores!Si te interesa participar postulate a la búsqueda, para luego poder enviar la solución del siguiente puzzle.¿Podrías decirnos cuál es el resultado de ejecutar el siguiente código? (suponiendo que la máquina tiene los recursos suficientes para terminar de ejecutarlo). Por favor no olvides comentarnos cuál fue tu razonamiento para llegar al resultado.
-`
-import java.math.BigInteger;
+
+`import java.math.BigInteger;
 
 class Puzzle { 
 
@@ -17,8 +17,8 @@ class Puzzle {
     } 
 
     return new BigInteger(s.toString()).mod(M); 
-} 
-`
+}` 
+
 `
 public static void main(String args[]) { 
 for (long n : new long[] { 1L, 2L, 5L, 10L, 20L, 67489454811002199L }) { 
