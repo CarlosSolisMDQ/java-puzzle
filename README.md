@@ -18,7 +18,8 @@ class Puzzle {
 
     return new BigInteger(s.toString()).mod(M); 
 } 
-
+`
+`
 public static void main(String args[]) { 
 for (long n : new long[] { 1L, 2L, 5L, 10L, 20L, 67489454811002199L }) { 
     System.out.println("" + n + ": " + compute(n)); 
